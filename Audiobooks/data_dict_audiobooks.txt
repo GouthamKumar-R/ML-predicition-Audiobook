@@ -1,0 +1,48 @@
+Audiobooks_data.csv
+
+Features: 12
+Dimensions: 14084,12
+
+Features:
+0 : Unnamed: 0 - Id
+	int
+	Customer Id ( Categorical-Nominal)
+1 : Book_length(mins)_overall
+	float
+	sum of the minute length of all purchases 
+2 : Book_length(mins)_avg
+	int
+	average length in minutes of all purchases
+3 : Price_overall
+	float
+	sum of all purchases
+4 : Price_avg
+	float
+	average of all purchases
+	*no. of purchases = 3/4 or 1/2
+5 : Review
+	Boolean(int)
+	shows if the customer left a review 
+6 : Review10/10
+	float
+	if the customer left a review, his/her review out of 10
+7 : Completion
+	float (0 to 1)
+	is the Minutes_listened / Book_length(mins)_overall
+8 : Minutes_listened
+	float
+	Total minutes listened 
+9 : Support_Request
+	int
+	shows the total number of support request (forgotten password to assistance).
+10 : Last_Visited_mins_Purchase_date
+	int
+	Last visited minus purchase date(in days)
+11 :Target
+	Boolean(int)
+	Target customers
+	
+	
+Problem statement:
+create a machine learning algorithm, which is able to predict if a customer will buy again. 
+	
